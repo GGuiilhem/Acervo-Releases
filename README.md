@@ -21,6 +21,8 @@
   <a href="https://github.com/GGuiilhem/Acervo-Releases/releases/latest/download/Acervo-portable.exe">Baixar a versão portátil</a>
   ·
   <a href="https://github.com/GGuiilhem/Acervo-Releases/releases/latest">Ver a versão mais recente</a>
+  ·
+  <a href="PRIVACY.md">Política de privacidade</a>
 </p>
 
 ## Sobre o Acervo
