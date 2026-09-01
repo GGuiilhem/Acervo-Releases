@@ -1,0 +1,42 @@
+name: Solicitar acesso ao Acervo
+description: Peça informações ou uma licença sem publicar dados sensíveis.
+title: "[Acesso] "
+labels:
+  - acesso
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pelo interesse no Acervo. Não informe senhas, documentos fiscais, chaves, arquivos ou dados pessoais neste formulário público.
+  - type: dropdown
+    id: finalidade
+    attributes:
+      label: Como pretende usar o Acervo?
+      options:
+        - Pesquisa de arquivos
+        - Organização de XML do eSocial
+        - Conversão de SPED
+        - Leitura de documentos fiscais
+        - Mais de uma funcionalidade
+        - Quero apenas conhecer o projeto
+    validations:
+      required: true
+  - type: dropdown
+    id: computadores
+    attributes:
+      label: Em quantos computadores pretende usar?
+      options:
+        - 1 computador
+        - 2 computadores
+        - 3 a 5 computadores
+        - Mais de 5 computadores
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Conte brevemente sua necessidade
+      description: Descreva somente o cenário geral. O contato particular será combinado depois.
+      placeholder: Exemplo: preciso organizar XMLs mensais e gerar planilhas para conferência.
+    validations:
+      required: true
